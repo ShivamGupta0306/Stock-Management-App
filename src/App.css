@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    background-repeat: no-repeat;
+    /* #accbee */
+    background-size: contain; 
+    font-family: 'Salsa', cursive;
+    overflow-x: hidden;
+    min-height: 100vh; /* Ensure body takes at least the height of the viewport */
+    /* display: flex; */
+    /* align-items: center; Vertically center content */
+    /* justify-content: center; Horizontally center content */
+}
